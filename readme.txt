@@ -1,4 +1,4 @@
-=== DC - Facebook Like Popup ===
+=== DC - Facebook Like Box Popup (Increase Facebook Fans) ===
 Contributors: dattardwp-21
 Donate link: http://www.dart-creations.com/joomla-25-and-joomla-3-modules/75-donate-a-beer
 Tags: wordpress, facebook, like, popin, responsive
