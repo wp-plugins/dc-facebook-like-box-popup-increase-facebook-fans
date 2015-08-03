@@ -1,6 +1,6 @@
 === DC - Facebook Like Popup ===
 Contributors: dattardwp-21
-Donate link: http://http://www.dart-creations.com/joomla-25-and-joomla-3-modules/75-donate-a-beer
+Donate link: http://www.dart-creations.com/joomla-25-and-joomla-3-modules/75-donate-a-beer
 Tags: wordpress, facebook, like, popin, responsive
 Requires at least: 3.0.1
 Tested up to: 4.3
