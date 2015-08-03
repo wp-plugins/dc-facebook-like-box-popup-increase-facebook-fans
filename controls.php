@@ -1,14 +1,4 @@
 <?php
-/*
- Contributors: dattardwp-21
- Donate link: http://www.dart-creations.com/joomla-25-and-joomla-3-modules/75-donate-a-beer
- Tags: wordpress, facebook, like, popin, responsive
- Requires at least: 3.0.1
- Tested up to: 4.3
- Stable tag: 4.3
- License: GPLv2 or later
- License URI: http://www.gnu.org/licenses/gpl-2.0.html
- */
 function wp_facebook_popup_settings_get_control($type, $required = false, $label, $id, $name, $value = '',  $data = null, $info = '', $style = 'input widefat') {
 	switch($type) {
 		case 'text':

@@ -1,6 +1,9 @@
 <?php
-/*
+/* 
+Plugin Name: DC - Facebook Like Box Popup (Increase Facebook Fans)
+Version: 1.0 
 Contributors: dattardwp-21
+Author URI: http://www.dart-creations.com
 Donate link: http://www.dart-creations.com/joomla-25-and-joomla-3-modules/75-donate-a-beer
 Tags: wordpress, facebook, like, popin, responsive
 Requires at least: 3.0.1
@@ -8,7 +11,6 @@ Tested up to: 4.3
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 1.0 
 */
 if(!defined('WP_FACEBOOK_POPUP_URL'))
 	define('WP_FACEBOOK_POPUP_URL',WP_PLUGIN_URL.'/dc-facebook-like-box-popup-increase-facebook-fans');
