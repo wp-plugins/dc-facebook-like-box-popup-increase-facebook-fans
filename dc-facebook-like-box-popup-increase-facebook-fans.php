@@ -8,6 +8,7 @@ Tested up to: 4.3
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0 
 */
 if(!defined('WP_FACEBOOK_POPUP_URL'))
 	define('WP_FACEBOOK_POPUP_URL',WP_PLUGIN_URL.'/dc-facebook-like-box-popup-increase-facebook-fans');
