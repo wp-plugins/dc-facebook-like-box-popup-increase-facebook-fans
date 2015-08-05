@@ -26,12 +26,18 @@ function wp_facebook_popup_show() {
 		$displayPopup = false;
 		
 		/*Begin Where to Show*/
-		if((is_home() || is_front_page()) && isset($data['show_in_home'])) { //Show in Home Page
-			$displayPopup = true;
-		} else if(is_single() && isset($data['show_in_post'])) { //Show in Single Post
-			$displayPopup = true;
-		} else if(is_page() && isset($data['show_in_page'])) { //Show in Single Page
-			$displayPopup = true;
+		if((is_home() || is_front_page())) { //Show in Home Page
+			if(isset($data['show_in_home'])) {
+				$displayPopup = true;
+			}
+		} else if(is_single()) { //Show in Single Post
+			if(isset($data['show_in_post'])) {
+				$displayPopup = true;
+			}
+		} else if(is_page()) { //Show in Single Page
+			if(isset($data['show_in_page'])) {
+				$displayPopup = true;
+			}
 		} else {
 			if(isset($data['show_everywhere'])) {
 				$displayPopup = true;
@@ -40,17 +46,19 @@ function wp_facebook_popup_show() {
 		/*End Where to Show*/
 		
 		/*Begin When to Show*/
-		if(is_user_logged_in()) {
-			if(isset($data['show_loggedin_users'])) {
-				$displayPopup = true;
+		if($displayPopup) {
+			if(is_user_logged_in()) {
+				if(isset($data['show_loggedin_users'])) {
+					$displayPopup = true;
+				} else {
+					$displayPopup = false;
+				}
 			} else {
-				$displayPopup = false;
-			}
-		} else {
-			if(isset($data['show_loggedout_users'])) {
-				$displayPopup = true;
-			} else {
-				$displayPopup = false;
+				if(isset($data['show_loggedout_users'])) {
+					$displayPopup = true;
+				} else {
+					$displayPopup = false;
+				}
 			}
 		}
 		/*End When to Show*/

@@ -1,7 +1,7 @@
 <?php
 /* 
 Plugin Name: DC - Facebook Like Box Popup (Increase Facebook Fans)
-Version: 1.0 
+Version: 1.1 
 Description: This WordPress plugin helps you add Facebook Fans by popping up a window with a Facebook Like box.
 Contributors: dattardwp-21
 Author URI: http://www.dart-creations.com

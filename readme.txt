@@ -46,5 +46,8 @@ Not yet - we will populate them as we go.
 
 == Changelog ==
 
+= 1.1 =
+* Fixed bugs related with show to logged out users and other issues 
+
 = 1.0 =
 * Released first version
