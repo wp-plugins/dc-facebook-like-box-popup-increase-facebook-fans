@@ -5,6 +5,7 @@ Version: 1.1
 Description: This WordPress plugin helps you add Facebook Fans by popping up a window with a Facebook Like box.
 Contributors: dattardwp-21
 Author URI: http://www.dart-creations.com
+Author: DART Creations
 Donate link: http://www.dart-creations.com/joomla-25-and-joomla-3-modules/75-donate-a-beer
 Tags: wordpress, facebook, like, popin, responsive
 Requires at least: 3.0.1
